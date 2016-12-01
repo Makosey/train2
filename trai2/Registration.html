@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form Sample</title>
+</head>
+<body>
+    <form action="https://formspree.io/fredgnow@gmail.com" method="POST">
+        <label for="Name">Name:</label>
+        <input type="text" name="Name" id="Name" required placeholder="Your Name">
+        <br>
+        <label>Email: 
+        <input type="email" name="email" required placeholder="Contact email">
+        </label>
+        <br>
+        <label for="Phone number">Contact Phone number:</label>
+        <input type="text" name="Phone number" id="Phone number" required placeholder="0987654321">
+        <br>
+        <label for="car-plate">Car Plate Number:</label>
+        <input type="text" name="car-plate" id="car-plate"
+          placeholder="AA1234BB" title="AA1234BB"
+          pattern="[A-Z]{2}[0-9]{4}[A-Z]{2}">
+        <br>
+        <label for="comment">Comment:</label>
+        <textarea name="comment" id="comment"></textarea>
+        <br>
+        <input type="submit" value="SEND">
+    </form>
+</body>
+</html>
